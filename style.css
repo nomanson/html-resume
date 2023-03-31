@@ -256,6 +256,12 @@ h2 {
   column-count: 2;
 }
 
+.list-style-none,
+.list-style-none li::before {
+  list-style-type: none;
+  content: '' !important;
+}
+
 .main-block:not(.concise) .details div {
   margin: 0.18in 0 0.1in 0;
 }
