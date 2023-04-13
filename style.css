@@ -285,8 +285,16 @@ h2 {
   float: right;
 }
 
+.details .logo {
+  float: right;
+}
+
 .details div {
   clear: both;
+}
+
+.details img {
+  height: 1.4em;
 }
 
 .details .location::before {
@@ -300,6 +308,8 @@ h2 {
   text-decoration: inherit;
   content: "\f041";
 }
+
+
 
 /***** fine-tunes on the lists... *****/
 
