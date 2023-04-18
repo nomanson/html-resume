@@ -29,6 +29,12 @@
   --main-blocks-title-icon-offset-left: -19pt;
 }
 
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
 body {
   width: var(--page-width);
   height: var(--page-height);
@@ -39,6 +45,9 @@ body {
   color: #444;
   hyphens: auto;
   background-color: #777;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 h1,
@@ -108,7 +117,8 @@ h2 {
 }
 
 #wrapper,
-#main {
+#main,
+#sidebar {
   background-color: #f2f2f2;
   overflow: hidden;
 
